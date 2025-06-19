@@ -1,0 +1,14 @@
+.header {
+  text-align: center;
+}
+
+.listItem {
+  background-color: rgb(168, 185, 121);
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  padding: 5px;
+  border: solid, black, 3px;
+  border-radius: 5px;
+  text-align: center;
+}
