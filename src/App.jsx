@@ -15,13 +15,16 @@ function States() {
         <button className='expandStateButton'>{state.id === expandedState ? '-' : '+'}</button>
         <div className='stateName'>{state.name} ({state.abbreviation})</div>
       </div>
-      {expandedState === state.id && <div className='nationalParksHeader'>National Parks</div>}
+      {expandedState === state.id && <div className='nationalParksHeader'>National Parks:</div>}
       {expandedState === state.id && state.nationalparks.map((park) => (
+        park === null ? (
+          <div className='checklistItem'>- No National Parks</div>
+        ) : (
         <div className='checklistItem' key={park.id}>
           <input type='checkbox' />
           <div>{park.name}</div>
         </div>
-        ))}
+        )))}
     </div>
   ))
   return ( 
