@@ -13,7 +13,7 @@ function States() {
     <div className='stateContainer' key={state.id}> 
       <div className='stateNameTab' onClick={() => handleExpandState(state.id)}>
         <button className='expandStateButton'>{state.id === expandedState ? '-' : '+'}</button>
-        <div className='stateName'>{state.name}</div>
+        <div className='stateName'>{state.name} ({state.abbreviation})</div>
       </div>
       {expandedState === state.id && <div className='nationalParksHeader'>National Parks</div>}
       {expandedState === state.id && state.nationalparks.map((park) => (
