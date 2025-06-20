@@ -17,8 +17,8 @@ function States() {
       </div>
       {expandedState === state.id && <div className='nationalParksHeader'>National Parks:</div>}
       {expandedState === state.id && state.nationalparks.map((park) => (
-        park === null ? (
-          <div className='checklistItem'>- No National Parks</div>
+        park.name === 'null' ? (
+          <div className='checklistItem' key={park.id}>- No National Parks</div>
         ) : (
         <div className='checklistItem' key={park.id}>
           <input type='checkbox' />
