@@ -2,8 +2,8 @@
   text-align: center;
 }
 
-.listItem {
-  background-color: rgb(168, 185, 121);
+.stateContainer {
+  background-color: rgb(204, 229, 185);
   display: flex;
   flex-wrap: wrap;
   margin: 5px;
@@ -11,4 +11,55 @@
   border: solid, black, 3px;
   border-radius: 5px;
   text-align: center;
+}
+
+.stateNameTab {
+  display: flex;
+  padding: 5px;
+  width: 100%;
+  height: 14px;
+}
+
+.expandStateButton {
+  background-color: rgb(49, 73, 49);
+  font-weight: bolder;
+  color: white;
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+  margin: -13px;
+  margin-right: 5px;
+  border: solid, black, 3px;
+  border-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.stateName {
+  background-color: rgb(168, 185, 121);
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 20px;
+  width: 100%;
+  text-align: left;
+  border: solid, black, 3px;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  height: 34px;
+  margin: -13px;
+  margin-left: -8px;
+}
+
+.nationalParksHeader {
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.checklistItem {
+  display: flex;
+  width: 100%;
+  padding: 3px;
 }
