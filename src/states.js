@@ -2,7 +2,7 @@ export const usStatesArray = [
   {id: 1, 
   name: 'Alabama', 
   abbreviation: 'AL', 
-  capital: 'Montgomery	', 
+  capital: 'Montgomery', 
   largestcity: 'Birmingham', 
   nationalparks: [{id: 1-11, name: 'null'}],
   attractions: [{id: 1-21, name: 'U.S. Space & Rocket Center'}, {id: 1-22, name: 'Birmingham Civil Rights Institute'}, {id: 1-23, name: 'Cathedral Caverns State Park'}, {id: 1-24, name: 'Golf Shores'}], 
