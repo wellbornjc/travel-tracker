@@ -84,12 +84,18 @@ function States() {
   );
 }
 
-
 function App() {
   return (
     <ul>
       <h1 className='header'>Travel Tracker - A Roadtrip Checklist</h1>
       <States />
+      <button className='resetButton'
+        onClick={() => {
+          localStorage.clear();
+          location.reload();
+          alert('Your Travel Tracker Has Reset!');
+        }}
+      >Reset Checklist</button>
     </ul>
   )
 }
