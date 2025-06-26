@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import { usStatesArray } from './states.js'
 
@@ -9,7 +9,14 @@ function States() {
     setExpandedState(expandedState === stateId ? null : stateId);
   };
 
-  const [checkedItems, setCheckedItems] = useState([]);
+  const [checkedItems, setCheckedItems] = useState(() => {
+    const storedItems = localStorage.getItem('items');
+    return storedItems ? JSON.parse(storedItems) : [];
+  });
+
+  useEffect(() =>{
+    localStorage.setItem('items', JSON.stringify(checkedItems));
+  }, [checkedItems]);
 
   const handledCheckingBoxes = (event) => {
     const itemId = event.target.value;
