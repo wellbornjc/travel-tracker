@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import { usStatesArray } from './states.js'
 
-// This handles expanding states, checked items, and saving what you have checked to local storage.
+// This handles expanded states, checked items, and saving what you have checked to local storage.
 function States() { 
   const [expandedState, setExpandedState] = useState(null);
 
@@ -30,7 +30,7 @@ function States() {
   };
 
   // This creates a HTML element for each of the states listed in states.js.
-  // It also creates headers and list items based on all of the date stored for each state creating a checklist.
+  // It also creates headers and list items based on all of the data stored for each state creating a checklist.
   const stateList = usStatesArray.map((state) => (
     <div className='stateContainer' key={state.id}> 
       <div className='stateNameTab' onClick={() => handleExpandState(state.id)}>
