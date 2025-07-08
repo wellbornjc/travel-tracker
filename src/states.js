@@ -15,7 +15,7 @@ export const usStatesArray = [
   largestcity: [{id: '2-lc', name: 'Anchorage'}], 
   nationalparks: [{id: '2-11', name: 'Denali National Park and Preserve'}, {id: '2-12', name: 'Gates of the Arctic National Park and Preserve'}, {id: '2-13', name: 'Glacier Bay National Park and Preserve'}, {id: '2-14', name: 'Katmai National Park and Preserve'}, {id: '2-15', name: 'Kenai Fjords National Park'}, {id: '2-16', name: 'Kobuk Valley National Park'}, {id: '2-17', name: 'Lake Clark National Park and Preserve'}, {id: '2-18', name: 'Wrangell–St. Elias National Park'}],
   attractions: [{id: '2-21', name: 'Anchorage Museum'}, {id: '2-22', name: 'Kodiak Island'}, {id: '2-23', name: 'Drive The Alcan Highway'}], 
-  other: [{id: '2-31', name: 'Spot The Big 5 (Moose, Grizzly Bears, Caribou, Dall Sheep, Gray Wolves'}, {id: '2-32', name: 'Kayak or Canoe'}, {id: '2-33', name: 'See The Northern Lights'}]},
+  other: [{id: '2-31', name: 'Spot The Big 5 (Moose, Grizzly Bears, Caribou, Dall Sheep, Gray Wolves)'}, {id: '2-32', name: 'Kayak or Canoe'}, {id: '2-33', name: 'See The Northern Lights'}]},
 
   {id: '3', 
   name:'Arizona', 
