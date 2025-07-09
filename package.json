@@ -1,6 +1,6 @@
 {
-  "homepage": "https://wellbornjc.github.io/travel-tracker/",
   "name": "travel-tracker",
+  "homepage": "https://wellbornjc.github.io/travel-tracker",
   "private": true,
   "version": "0.0.0",
   "type": "module",
