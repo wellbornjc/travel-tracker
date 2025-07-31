@@ -10,7 +10,8 @@
   padding: 5px;
   border: solid, black, 3px;
   border-radius: 5px;
-  text-align: center;
+  text-align: left;
+  margin-right: 96px;
 }
 
 .stateNameTab {
@@ -35,6 +36,11 @@
   border-bottom-right-radius: 0px;
 }
 
+.expandStateButton:hover {
+  background-color: white;
+  color: rgb(49, 73, 49);
+}
+
 .stateName {
   background-color: rgb(168, 185, 121);
   font-weight: bold;
@@ -49,6 +55,11 @@
   height: 34px;
   margin: -13px;
   margin-left: -8px;
+}
+
+.stateName:hover {
+  background-color: rgb(143, 158, 103);
+  color: white;
 }
 
 .categoryHeader {
@@ -66,6 +77,10 @@
   padding: 3px;
 }
 
+.checklistItem:hover {
+  font-weight: bold;
+}
+
 .resetButton {
   position: relative;
   left: 50%;
@@ -76,5 +91,11 @@
   font-size: 20px;
   border: solid;
   border-radius: 5px;
-  background-color: rgb(216, 143, 143);
+  background-color: rgb(255, 186, 186);
+}
+
+.resetButton:hover {
+  background-color: black;
+  color: rgb(255, 186, 186);
+  border-color: black;
 }
