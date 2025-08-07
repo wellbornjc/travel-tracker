@@ -1,5 +1,14 @@
 .header {
   text-align: center;
+  font-size: 34px;
+  width: 600px;
+  margin-left: -300px;
+  position: absolute;
+  left: 50%;
+}
+
+.padding {
+  height: 100px;
 }
 
 .stateContainer {
@@ -84,7 +93,7 @@
 .resetButton {
   position: relative;
   left: 50%;
-  margin-left: -80px;
+  margin-left: -100px;
   width: 160px;
   height: 30px;
   margin-top: 10px;
@@ -98,4 +107,36 @@
   background-color: black;
   color: rgb(255, 186, 186);
   border-color: black;
+}
+
+@media (max-width: 550px) {
+  .header {
+    font-size: 25px;
+    width: 220px;
+    margin-left: -110px;
+  }
+
+  .stateContainer {
+    margin-left: -50px;
+    margin-right: 36px;
+  }
+
+  .padding {
+    height: 100px;
+  }
+
+  .stateName {
+    font-size: 25px;
+    padding-left: 5px;
+    white-space: nowrap;
+  }
+
+  .categoryHeader {
+    font-size: 16px;
+  }
+
+  .checklistItem {
+    font-size: 12px;
+    padding: 1px;
+  }
 }

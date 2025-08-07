@@ -50,7 +50,7 @@ export const usStatesArray = [
   capital: [{id: '6-c', name: 'Denver'}], 
   largestcity: [{id: '6-lc', name: 'Denver'}], 
   nationalparks: [{id: '6-11', name: 'Black Canyon of the Gunnison National Park'}, {id: '6-12', name: 'Great Sand Dunes National Park'}, {id: '6-13', name: 'Mesa Verde National Park'}, {id: '6-14', name: 'Rocky Mountain National Park'}],
-  attractions: [{id: '6-21', name: 'Garden of The Gods'}, {id: '6-22', name: 'Eldorado Canyon State Park'}, {id: '6-23', name: ''}, {id: '6-24', name: ''}, {id: '6-25', name: ''}], 
+  attractions: [{id: '6-21', name: 'Garden of The Gods'}, {id: '6-22', name: 'Eldorado Canyon State Park'}], 
   other: [{id: '6-31', name: 'See a Concert at Red Rocks'}, {id: '6-32', name: 'Hike Above 14,000 ft'}, {id: '6-33', name: 'Go Skiing'}, {id: '6-34', name: 'Visit a Ghost Town'},]},
 
   {id: '7', 

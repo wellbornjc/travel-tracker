@@ -90,6 +90,7 @@ function App() {
   return (
     <ul>
       <h1 className='header'>Travel Tracker - A Roadtrip Checklist</h1>
+      <div className="padding"></div>
       <States />
       <button className='resetButton'
         onClick={() => {
@@ -98,6 +99,7 @@ function App() {
           alert('Your Travel Tracker Has Reset!');
         }}
       >Reset Checklist</button>
+      <div className="footerPadding"></div>
     </ul>
   )
 }
